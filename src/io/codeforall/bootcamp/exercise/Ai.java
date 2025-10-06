@@ -1,8 +1,5 @@
 package io.codeforall.bootcamp.exercise;
 
-import java.awt.desktop.SystemSleepEvent;
-import java.util.Arrays;
-
 // Ai class declaration
 public class Ai {
     // instance variables declaration. private as will be used only in this class
@@ -80,7 +77,7 @@ public class Ai {
         String[] words = text.split(" ");
         // 2. Check each word
         for (int i = 0; i < words.length; i++){
-            // 3. If word is palindrome, replace it
+            // 3. If word is palindrome, replace it with
             if (isPalindrome(words[i])){
                 words[i] = "palindrome";
             }
